@@ -13,7 +13,7 @@ Rust based on link:https://github.com/hyperium/http[`http` types].
 [code,toml]
 ----
 [dependencies]
-cgi = "*"
+cgi = { git = "https://github.com/mocsy/rust-cgi" }
 ----
 
 In the `main` function, call only `cgi::handle(...)`, with a function that
